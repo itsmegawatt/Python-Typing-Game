@@ -10,6 +10,7 @@ class Phrase:
 
     def start_attempt(self, attempt = ""):
         if attempt == "":
+            print("Your attempt starts now, type the following: " + self.phrase)
             self.start_time()
             self.attempt = input()
             self.stop_time()
